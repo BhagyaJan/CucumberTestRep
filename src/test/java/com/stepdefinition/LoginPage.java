@@ -30,8 +30,8 @@ public class LoginPage extends AutoTestHelper {
 	
 	@Given("User is on the adactin page")
 	public void user_is_on_the_adactin_page() throws MalformedURLException {
-		//getChromeDriver();
-		getRemoteFireFoxriver();
+		getChromeDriver();
+		//getRemoteFireFoxriver();
 		loadURL("https://www.adactin.com/HotelApp/index.php");
 	}
 	
