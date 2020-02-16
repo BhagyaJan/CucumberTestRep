@@ -1,0 +1,273 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 14,
+        "name": "Verifiying Login details with valid credentials",
+        "description": "",
+        "id": "verifying-adactin-login;verifiying-login-details-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11920006500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User is on the adactin page",
+            "match": {
+              "location": "LoginPage.user_is_on_the_adactin_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 712109500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "users enters username and password",
+            "match": {
+              "location": "LoginPage.users_enters_username_and_password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "Bhagyaraj",
+                  "1982bagya"
+                ]
+              },
+              {
+                "cells": [
+                  "dfgfd",
+                  "ggdgfg"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1746736000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user should click the login button",
+            "match": {
+              "location": "LoginPage.user_should_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124674600,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user should verfy the message",
+            "match": {
+              "location": "LoginPage.user_should_verfy_the_message()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 31,
+        "name": "verifying the search hotel page",
+        "description": "",
+        "id": "verifying-adactin-login;verifying-the-search-hotel-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8603752200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user select the \"London\", \"Hotel Cornice\", \"Standard\", \"1 - One\", \"13/03/2020\", \"15/03/2020\", \"2 - Two\", \"2 - Two\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"London\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"Hotel Cornice\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Standard\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"1 - One\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"13/03/2020\"",
+                  "offset": 66
+                },
+                {
+                  "val": "\"15/03/2020\"",
+                  "offset": 80
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 94
+                },
+                {
+                  "val": "\"2 - Two\"",
+                  "offset": 105
+                }
+              ],
+              "location": "LoginPage.user_select_the(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1804932100,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user should click search button",
+            "match": {
+              "location": "LoginPage.user_should_click_search_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 37,
+        "name": "verifying the select hotel page",
+        "description": "",
+        "id": "verifying-adactin-login;verifying-the-select-hotel-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 298753400,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "user should click checkbox",
+            "match": {
+              "location": "LoginPage.user_should_click_checkbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1581514100,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user should click continue button",
+            "match": {
+              "location": "LoginPage.user_should_click_continue_button()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 48,
+        "name": "verifying the Book a hotel page",
+        "description": "",
+        "id": "verifying-adactin-login;verifying-the-book-a-hotel-page;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6672147900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user enter the \"Suresh\", \"Kumar\", \"Trichy\", \"4210021007006120\", \"MAST\", \"3\", \"2022\", \"683\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Suresh\"",
+                  "offset": 15
+                },
+                {
+                  "val": "\"Kumar\"",
+                  "offset": 25
+                },
+                {
+                  "val": "\"Trichy\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"4210021007006120\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"MAST\"",
+                  "offset": 64
+                },
+                {
+                  "val": "\"3\"",
+                  "offset": 72
+                },
+                {
+                  "val": "\"2022\"",
+                  "offset": 77
+                },
+                {
+                  "val": "\"683\"",
+                  "offset": 85
+                }
+              ],
+              "location": "LoginPage.user_enter_the(String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5785988200,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user should click book now button",
+            "match": {
+              "location": "LoginPage.user_should_click_book_now_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 790009301,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user should verfy the orderid",
+            "match": {
+              "location": "LoginPage.user_should_verfy_the_orderid()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "verifying adactin Login",
+    "description": "",
+    "id": "verifying-adactin-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FEATURES423423/LoginPage.feature",
+    "tags": []
+  }
+]
